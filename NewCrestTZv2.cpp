@@ -21,6 +21,12 @@ string CRMCSV_IN = "crmActiveTemples.csv";      //csv file from crm
 //***************************************************************
 int main(int argc, char* argv[])
 {
+    //small change
+    cout << "Small chnage\n";
+    system("pause");
+    // 
+    // 
+    // 
     //Objects
     // moving the data to the heap
     csvRec* crmRec = new csvRec[RECS];          //crmFile[0..RECS]
